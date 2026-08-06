@@ -102,7 +102,7 @@ function HeroSection() {
             <a href="#products">See the products</a>
           </Button>
         </div>
-        <p className="mt-4 text-sm text-muted-foreground">Date TBA — The Collective Brew, Jersey City</p>
+        <p className="mt-4 text-sm text-muted-foreground">Saturday, September 19, 2026 — 12:00 PM to 4:00 PM — The Collective Brew, Jersey City</p>
       </div>
 
       <div className="mx-auto mt-12 max-w-7xl">
@@ -135,8 +135,8 @@ function EventSection() {
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-3">
-          <EventDetailCard icon={Calendar} label="Date" value="To be announced" />
-          <EventDetailCard icon={Clock} label="Time" value="Afternoon hours TBA" />
+          <EventDetailCard icon={Calendar} label="Date" value="Saturday, September 19, 2026" />
+          <EventDetailCard icon={Clock} label="Time" value="12:00 PM – 4:00 PM" />
           <EventDetailCard
             icon={MapPin}
             label="Location"
