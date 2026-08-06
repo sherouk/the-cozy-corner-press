@@ -102,7 +102,7 @@ function HeroSection() {
             <a href="#products">See the products</a>
           </Button>
         </div>
-        <p className="mt-4 text-sm text-muted-foreground">Saturday, September 19, 2026 — 12:00 PM to 4:00 PM — The Collective Brew, Jersey City</p>
+        
       </div>
 
       <div className="mx-auto mt-12 max-w-7xl">
