@@ -102,7 +102,7 @@ function HeroSection() {
             <a href="#products">See the products</a>
           </Button>
         </div>
-        <p className="mt-4 text-sm text-muted-foreground">Date TBA — The Collective Brew, Jersey City</p>
+        <p className="mt-4 text-sm text-muted-foreground">Saturday, September 19, 2026 — 12:00 PM to 4:00 PM — The Collective Brew, Jersey City</p>
       </div>
 
       <div className="mx-auto mt-12 max-w-7xl">
@@ -129,14 +129,14 @@ function EventSection() {
             The popup
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            A relaxed afternoon of stationery, coffee, and conversation. Save your spot and be the first to know
-            when the date is locked in.
+            A relaxed afternoon of stationery, coffee, and conversation. Save your spot on Luma and stop by
+            The Collective Brew on Saturday, September 19.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-3">
-          <EventDetailCard icon={Calendar} label="Date" value="To be announced" />
-          <EventDetailCard icon={Clock} label="Time" value="Afternoon hours TBA" />
+          <EventDetailCard icon={Calendar} label="Date" value="Saturday, September 19, 2026" />
+          <EventDetailCard icon={Clock} label="Time" value="12:00 PM – 4:00 PM" />
           <EventDetailCard
             icon={MapPin}
             label="Location"
@@ -256,7 +256,7 @@ function NewsletterSection() {
           Stay in the loop
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Get the event date, location details, and shop announcements when they drop.
+          Get shop announcements, event reminders, and future pop-up updates.
         </p>
 
         {status === "success" ? (
