@@ -11,7 +11,7 @@ import notebookImage from "@/assets/product-notebook.jpg";
 import cardsImage from "@/assets/product-cards.jpg";
 import penImage from "@/assets/product-pen.jpg";
 
-const LUMA_EVENT_URL = "https://lu.ma"; // Replace with your Luma event link
+const LUMA_EVENT_URL = "https://luma.com/5l796cbd";
 
 export const Route = createFileRoute("/")({
   head: () => ({
