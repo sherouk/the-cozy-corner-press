@@ -129,8 +129,8 @@ function EventSection() {
             The popup
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            A relaxed afternoon of stationery, coffee, and conversation. Save your spot and be the first to know
-            when the date is locked in.
+            A relaxed afternoon of stationery, coffee, and conversation. Save your spot on Luma and stop by
+            The Collective Brew on Saturday, September 19.
           </p>
         </div>
 
@@ -256,7 +256,7 @@ function NewsletterSection() {
           Stay in the loop
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Get the event date, location details, and shop announcements when they drop.
+          Get shop announcements, event reminders, and future pop-up updates.
         </p>
 
         {status === "success" ? (
